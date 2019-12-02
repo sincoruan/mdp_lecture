@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RecyclerCardViewApp</string>
+    <array name="fruits">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Cherries</item>
+        <item>Dates</item>
+        <item>Grapes</item>
+        <item>Mango</item>
+    </array>
+    <array name="desc">
+        <item>High amount of fiber, vitamin C, potassium and vitamin K.</item>
+        <item>Rich in vitamins and minerals</item>
+        <item>Rich in nutrients, potassium, fiber and vitamin C.</item>
+        <item>Contains calcium, iron, phosphorus, sodium, potassium, magnesium, and zinc </item>
+        <item>Helps to protect your heart, eyes, joints and brain</item>
+        <item>Excellent source of vitamin C</item>
+    </array>
+
+    <array name="detail">
+        <item>High amount of fiber, vitamin C, potassium and vitamin K. \n Reduce cholesterol
+            \n Get a healthier heart \n Decrease your risk of diabetes</item>
+        <item>Rich in vitamins and minerals \n High Fibre Content
+            Ease in Digestion\n High Source Of Potassium \n Helps Fight Anaemia</item>
+        <item>Rich in nutrients, potassium, fiber and vitamin C.
+            \n Helps Lower The Risk Of Colon Cancer \n Helps Improve Memory
+            \n  Helps You Get A Good Nights Sleep</item>
+        <item>Contains calcium, iron, phosphorus, sodium, potassium, magnesium, and zinc
+            \nMay Promote Brain Health \n Excellent Natural Sweetener
+            \n Cure Allergies \n Promote Weight Gain</item>
+        <item>Helps to protect your heart, eyes, joints and brain \n Relieve Indigestion
+            \n Control Diabetes \n Balance Cholesterol Levels \n Prevent Cancer</item>
+        <item>Excellent source of vitamin C \n Helps in digestion
+            \n Promotes Healthy Gut \n Boosts Immunity \n Promotes eye health \n  Aids Weight Loss</item>
+    </array>
+</resources>

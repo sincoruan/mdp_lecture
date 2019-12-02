@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UIDemo</string>
+    <string-array name="course_array">
+        <item>WAP</item>
+        <item>MWA</item>
+        <item>MDP</item>
+        <item>EA</item>
+    </string-array>
+</resources>

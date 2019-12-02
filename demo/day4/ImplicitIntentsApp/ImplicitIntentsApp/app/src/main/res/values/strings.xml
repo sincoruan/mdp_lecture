@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ImplicitIntentsApp</string>
+
+    <string name="edittext_uri">http://developer.android.com</string>
+    <!-- Button label for Open Website -->
+    <string name="button_uri">Open Website</string>
+
+
+    <!-- Default text for Open Location -->
+    <string name="edittext_loc">Maharishi University of Management</string>
+    <!-- Button label for Open Location -->
+    <string name="button_loc">Open Location</string>
+
+    <!-- Default text for Share This Text -->
+    <string name="edittext_share">Google announced Kotlin is the official Language for Android Development</string>
+   <!-- Button label for Share This Text -->
+    <string name="button_share">Share This Text</string>
+</resources>
