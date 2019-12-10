@@ -1,5 +1,7 @@
 # mdp_lecture
 
+searchWord(word:String)
+
 displayVocabulary()
 addToFavorite(favName:String,id:Int)
 getFavoriteList(favName:String)
