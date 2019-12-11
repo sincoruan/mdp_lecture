@@ -24,12 +24,15 @@ vocabulary_name
     example
     
 
-insert into vocabulary values(1,'a','character','a apple')
-insert into vocabulary values(2,'apple','fruite',' a apple')
-insert into vocabulary values(3,'banana','banana','banana')
-insert into vocabulary values(4,'pear','pear','pear')
-insert into vocabulary values(5,'cherry','cherry','cherry')
-insert into vocabulary values(6,'grape','grape','grape')
+insert into vocabulary values(1,'a','character','a apple');
+insert into vocabulary values(2,'apple','fruite',' a apple');
+insert into vocabulary values(3,'banana','banana','banana');
+insert into vocabulary values(4,'pear','pear','pear');
+insert into vocabulary values(5,'cherry','cherry','cherry');
+insert into vocabulary values(6,'grape','grape','grape');
+
+
+
 
 
 
