@@ -2,8 +2,8 @@
 
 searchWord(word:String)
 
-displayFavoriteList()
-addToFavorite(favName:String,id:Int)
+displayFavoriteList(group:String)
+addToFavorite(wordname:String,group:String)
 
 initializeFavoriteIntoMemorize(favName:String)
 getFavoriteFromMemorize()
@@ -23,8 +23,6 @@ vocabulary_name
     explanation
     example
     
-    
-
 
 insert into vocabulary values(1,'a','character','a apple')
 insert into vocabulary values(2,'apple','fruite',' a apple')
