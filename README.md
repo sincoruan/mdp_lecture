@@ -2,9 +2,8 @@
 
 searchWord(word:String)
 
-displayVocabulary()
+displayFavoriteList()
 addToFavorite(favName:String,id:Int)
-getFavoriteList(favName:String)
 
 initializeFavoriteIntoMemorize(favName:String)
 getFavoriteFromMemorize()
