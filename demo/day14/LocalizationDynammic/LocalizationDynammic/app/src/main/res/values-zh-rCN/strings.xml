@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalizationDynammic</string>
+    <string name="button">按钮</string>
+    <string name="hello">你好</string>
+    <string name="response">谢谢</string>
+    <string name="title">本地化</string>
+</resources>
