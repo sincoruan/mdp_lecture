@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LocalizationDynammic</string>
+    <string name="title">Localization</string>
+    <string name="hello">Hello </string>
+    <string name="button"> Click Me</string>
+    <string name="response">Thank You</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Localization7Days</string>
+    <string name="title">Days in a Week </string>
+    <string name="day1">Sunday</string>
+    <string name="day2">Monday</string>
+    <string name="day3">Tuesday</string>
+    <string name="day4">Wednesday</string>
+    <string name="day5">Thursday</string>
+    <string name="day6">Friday</string>
+    <string name="day7">Saturday</string>
+    <string name="thank">Thank you</string>
+
+</resources>

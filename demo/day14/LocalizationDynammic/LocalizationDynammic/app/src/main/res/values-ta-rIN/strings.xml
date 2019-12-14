@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"உள்ளூராக்கல் "</string>
+    <string name="button">என்னைக் கிளிக் செய்க</string>
+    <string name="hello">வணக்கம்</string>
+    <string name="title">"உள்ளூராக்கல் "</string>
+    <string name="response">நன்றி</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".WebViewActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_height="0dp"
+        android:text="Button" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/prebtn"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            android:text="pre" />
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.1"
+            android:layout_height="wrap_content"
+            android:text="next" />
+    </LinearLayout>
+    <WebView
+        android:id="@+id/wview"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" >
+
+    </WebView>
+
+</LinearLayout>

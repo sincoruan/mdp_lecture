@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localization7Days</string>
+    <string name="title">ஒரு வாரத்தில் நாட்கள் </string>
+    <string name="day1">ஞாயிறு</string>
+    <string name="day2">திங்கட்கிழமை</string>
+    <string name="day3">செவ்வாய்க்கிழமை</string>
+    <string name="day4">புதன்கிழமை</string>
+    <string name="day5">வியாழக்கிழமை</string>
+    <string name="day6">வெள்ளி</string>
+    <string name="day7">சனிக்கிழமை</string>
+    <string name="thank">நன்றி</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalizationDynammic</string>
+
+    <string name="title">Localisation</string>
+    <string name="hello">Bonjour </string>
+    <string name="button"> Cliquez-moi</string>
+    <string name="response">Je vous remercie</string>
+</resources>
