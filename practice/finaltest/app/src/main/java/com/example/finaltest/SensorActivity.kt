@@ -12,14 +12,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sensor.*
 import kotlin.random.Random
 
+//1.implementt listener
 class SensorActivity : AppCompatActivity(),SensorEventListener {
     var list  = arrayOf<String>("apple","banana","pear","cherry","blueberry")
     lateinit var shake:Sensor
     lateinit var sensorManager:SensorManager
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-
     }
-
     override fun onSensorChanged(event: SensorEvent?) {
 
         var arr = event?.values
@@ -29,11 +28,9 @@ class SensorActivity : AppCompatActivity(),SensorEventListener {
             displaySensor.text = list[random]
         }
     }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sensor)
-
         sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
         shake = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
 
@@ -42,12 +39,10 @@ class SensorActivity : AppCompatActivity(),SensorEventListener {
         else
             Toast.makeText(this,"has not accelometer",Toast.LENGTH_SHORT).show()
     }
-
     override fun onResume() {
         super.onResume()
         sensorManager.registerListener(this,shake,SensorManager.SENSOR_DELAY_NORMAL)
     }
-
     override fun onPause() {
         super.onPause()
         sensorManager.unregisterListener(this)

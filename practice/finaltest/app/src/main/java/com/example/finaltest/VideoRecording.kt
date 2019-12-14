@@ -24,7 +24,6 @@ class VideoRecording : AppCompatActivity() {
             var intent = Intent(MediaStore.ACTION_VIDEO_CAPTURE)
             startActivityForResult(intent,1)
         }
-
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
